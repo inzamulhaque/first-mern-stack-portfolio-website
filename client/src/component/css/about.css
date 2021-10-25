@@ -1,0 +1,12 @@
+.main_about {
+    min-height: 79.7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_img {
+    height: 375px !important;
+    width: 450px !important;
+    box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.9);
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}

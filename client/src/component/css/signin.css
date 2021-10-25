@@ -1,0 +1,38 @@
+.login_div {
+    min-height: 79.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_img {
+    height: 70%;
+    width: 75%;
+    margin: auto;
+}
+
+.login_input{
+    width: 100%;
+}
+
+.signin_btn {
+    background: #290FBA !important;
+    color: #fff !important;
+    margin-top: 5px!important;
+    border-radius: 5px!important;
+}
+
+.forgot_btn {
+        margin-left: 10px !important;
+        background: #58BAD7 !important;
+        color: #fff !important;
+        margin-top: 5px!important;
+        border-radius: 5px!important;
+}
+
+@media (max-width: 360px) {
+    .forgot_btn {
+        font-size: 14px !important;
+        margin-left: 0 !important;
+    }
+}

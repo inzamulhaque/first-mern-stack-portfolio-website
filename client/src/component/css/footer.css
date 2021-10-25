@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    margin-top: auto !important;
+    min-height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #0a183d;
+    color: #fff;
+    margin-top: auto !important;
+}
+
+footer h3 {
+    font-size: 25px;
+    font-weight: bold;
+}

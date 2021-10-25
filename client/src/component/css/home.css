@@ -1,0 +1,25 @@
+.home_main_div {
+    min-height: 79.7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_img {
+    box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.9);
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.home_page_btn {
+    padding: 10px 50px;
+    font-size: 25px;
+    border: 3px solid #274BFC;
+    border-radius: 50px;
+    color: #274BFC;
+    background: transparent;
+    transition: all 1s;
+}
+
+.home_page_btn:hover {
+    background: #274BFC;
+    color: #fff;
+}

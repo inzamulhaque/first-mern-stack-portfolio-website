@@ -1,0 +1,38 @@
+.contact_div {
+    min-height: 79.7vh;
+    justify-content: center;
+}
+
+.contact_icons {
+    padding: 5px;
+    box-shadow: 3px -5px 7px #000;
+}
+
+.contact_input {
+    margin-right: 10px !important;
+    width: 47% !important;
+}
+
+.contact_msg {
+    width: 95% !important;
+}
+
+.msg_btn {
+    margin-top: 10px!important;
+    background: #274BFC!important;
+    padding: 10px!important;
+    margin-left: 10px!important;
+    color: #fff!important;
+    transition: all 1s!important;
+}
+
+@media (max-width: 360px) {
+    .contact_input {
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .contact_msg {
+        width: 100% !important;
+    }
+}

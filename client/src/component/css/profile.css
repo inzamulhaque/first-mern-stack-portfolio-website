@@ -1,0 +1,6 @@
+.profile_div {
+    min-height: 79.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
