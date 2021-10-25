@@ -63,7 +63,7 @@ const EmailVerify = () => {
 
     const checkOTP = (event) => {
         event.preventDefault();
-        let time = Date.now() - otpData.extime;
+        let time = otpData.extime - Date.now();
         if (time > 0) {
             if (otpData.otp == otp){
                 otpVerifed();
