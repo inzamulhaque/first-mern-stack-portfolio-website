@@ -89,11 +89,11 @@ const EmailVerify = () => {
             });
 
             const data = await res.json();
-            await callEmailVerify();
 
         } catch (error) {
             console.log(`this is error: ${error}`);
         }
+        callEmailVerify();
     }
 
     return (
