@@ -55,7 +55,7 @@ Router.post("/userSignup", async(req, res) => {
             await otp.save();
             await user.save();
             res.cookie("ihporuseremail", accountNo, {
-                expires: new Date(Date.now() + (600*1000)),
+                expires: new Date(Date.now() + (900*1000)),
                 httpOnly: true
             });
             res.status(201).json({message: "Sign Up successful"});

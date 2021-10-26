@@ -88,6 +88,11 @@ const EmailVerify = () => {
                 method: "PATCH"
             });
 
+            const data = await res.json();
+            if (data) {
+                callEmailVerify();
+            }
+
         } catch (error) {
             console.log(`this is error: ${error}`);
         }
